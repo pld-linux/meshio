@@ -5,7 +5,7 @@ Version:	0.2.0
 Release:	0.1
 License:	LGPL v2+
 Group:		Libraries
-Source0:	http://www.3dwm.org/download/%{name}-%{version}.tar.bz2
+Source0:	http://www.3dwm.org/download/%{name}-%{version}.tar.gz
 URL:		http://www.3dwm.org/frameset.html
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Obsoletes:	libmeshio0
