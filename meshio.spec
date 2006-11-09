@@ -12,8 +12,8 @@ BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	libstdc++-devel
 BuildRequires:	libtool >= 2:1.4d
-BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Obsoletes:	libmeshio0
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 MeshIO is a simple C++ library for the loading of 3D model files.
@@ -30,7 +30,7 @@ przeprojektowane w przysz³o¶ci.
 Summary:	Development files for MeshIO
 Summary(pl):	Pliki nag³ówkowe dla MeshIO
 Group:		Development/Libraries
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 Obsoletes:	libmeshio0-devel
 
 %description devel
@@ -43,7 +43,7 @@ Pliki nag³ówkowe dla meshio.
 Summary:	Static meshio library
 Summary(pl):	Statyczna biblioteka meshio
 Group:		Development/Libraries
-Requires:	%{name}-devel = %{version}
+Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static meshio library.
