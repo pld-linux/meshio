@@ -1,5 +1,5 @@
 Summary:	Library for the loading of 3D model files
-Summary(pl):	Biblioteka do ≥adowania plikÛw z modelami 3D
+Summary(pl.UTF-8):   Biblioteka do ≈Çadowania plik√≥w z modelami 3D
 Name:		meshio
 Version:	0.2.0
 Release:	1
@@ -20,15 +20,15 @@ MeshIO is a simple C++ library for the loading of 3D model files.
 Currently, MeshIO only supports plain .3DS files as well as its native
 .RAW format. MeshIO will undergo a major redesign in the future.
 
-%description -l pl
-MeshIO jest prost± bibliotek± napisana w C++, s≥uø±c± do ≥adowania
-plikÛw z modelami 3D. W chwili obecnej, MeshIO wspiera tylko czyste
-pliki .3DS oraz swÛj natywny format .RAW. MeshIO zostanie gruntownie
-przeprojektowane w przysz≥o∂ci.
+%description -l pl.UTF-8
+MeshIO jest prostƒÖ bibliotekƒÖ napisana w C++, s≈Çu≈ºƒÖcƒÖ do ≈Çadowania
+plik√≥w z modelami 3D. W chwili obecnej, MeshIO wspiera tylko czyste
+pliki .3DS oraz sw√≥j natywny format .RAW. MeshIO zostanie gruntownie
+przeprojektowane w przysz≈Ço≈õci.
 
 %package devel
 Summary:	Development files for MeshIO
-Summary(pl):	Pliki nag≥Ûwkowe dla MeshIO
+Summary(pl.UTF-8):   Pliki nag≈Ç√≥wkowe dla MeshIO
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Obsoletes:	libmeshio0-devel
@@ -36,19 +36,19 @@ Obsoletes:	libmeshio0-devel
 %description devel
 Development files for meshio.
 
-%description devel -l pl
-Pliki nag≥Ûwkowe dla meshio.
+%description devel -l pl.UTF-8
+Pliki nag≈Ç√≥wkowe dla meshio.
 
 %package static
 Summary:	Static meshio library
-Summary(pl):	Statyczna biblioteka meshio
+Summary(pl.UTF-8):   Statyczna biblioteka meshio
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static meshio library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka meshio.
 
 %prep
