@@ -1,5 +1,5 @@
 Summary:	Library for the loading of 3D model files
-Summary(pl.UTF-8):   Biblioteka do ładowania plików z modelami 3D
+Summary(pl.UTF-8):	Biblioteka do ładowania plików z modelami 3D
 Name:		meshio
 Version:	0.2.0
 Release:	1
@@ -28,7 +28,7 @@ przeprojektowane w przyszłości.
 
 %package devel
 Summary:	Development files for MeshIO
-Summary(pl.UTF-8):   Pliki nagłówkowe dla MeshIO
+Summary(pl.UTF-8):	Pliki nagłówkowe dla MeshIO
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Obsoletes:	libmeshio0-devel
@@ -41,7 +41,7 @@ Pliki nagłówkowe dla meshio.
 
 %package static
 Summary:	Static meshio library
-Summary(pl.UTF-8):   Statyczna biblioteka meshio
+Summary(pl.UTF-8):	Statyczna biblioteka meshio
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
